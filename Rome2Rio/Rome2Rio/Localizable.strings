@@ -1,0 +1,71 @@
+/* 
+  Localizable.strings
+  Rome2Rio
+
+  Created by Ash Verdoorn on 3/12/12.
+  Copyright (c) 2012 Rome2Rio. All rights reserved.
+*/
+
+//strings in R2RStringFormatter also need to be localized
+
+"Origin"                = "Origin";
+"Destination"           = "Destination";
+"Search"                = "Search";
+"Searching"             = "Searching";
+"Results"               = "Results";
+"Route"                 = "Route";
+"Fly"                   = "Fly";
+"Walk"                  = "Walk";
+"Car"                   = "Car";
+"Drive"                 = "Drive";
+"Train"                 = "Train";
+"Bus"                   = "Bus";
+"Ferry"                 = "Ferry";
+"Transit"               = "Transit";
+"finding"               = "finding";
+"%@ to %@"              = "%@ to %@";
+"Unable to find location" = "Unable to find location";
+"Location services are off" = "Location services are off";
+"Internet appears to be offline" = "Internet appears to be offline";
+"Unable to find route"  = "Unable to find route";
+"Finding Current Location"= "Finding Current Location";
+"Finding Map Location"  = "Finding Map Location";
+"Enter Origin"          = "Enter Origin";
+"Enter Destination"     = "Enter Destination";
+"Layover at %@"         = "Layover at %@";
+"External Links"        = "External Links";
+"cancel"                = "Cancel";
+"Schedules"             = "Schedules";
+"Select on map"         = "Select on map";
+"Current location"      = "Current location";
+"Version %@"            = "Version %@";
+"Send Feedback"         = "Send Feedback";
+"Rate App"              = "Rate App";
+"Could not start iTunes" = "Could not start iTunes";
+"Please rate rome2rio in the iTunes store" = "Please rate rome2rio in the iTunes store";
+"Ok"                    = "Ok";
+"Could not start email client" = "Could not start email client";
+"Please send feedback to feedback@rome2rio.com" = "Please send feedback to feedback@rome2rio.com";
+"Select location"       = "Select location";
+"Rate %@"               = "Rate %@";
+"If you enjoy using %@, please take a moment to rate it" = "If you enjoy using %@, please take a moment to rate it";
+"No thanks"             = "No thanks";
+"Remind me later"       = "Remind me later";
+"Server Temporarily Unavailable" = "Server Temporarily Unavailable";
+"Direct Flights"        = "Direct Flights";
+"%d stopover flights"   = "%d stopover flights";
+"Transfer"              = "Transfer";
+
+
+
+
+
+
+
+
+
+
+
+
+
+

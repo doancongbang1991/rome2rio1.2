@@ -1,0 +1,933 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E0C56B916C1E4C80085768C /* Blue_dot-24px.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E0C56B816C1E4C80085768C /* Blue_dot-24px.png */; };
+		5E10152716C324ED0035D60B /* R2RTransitSchedulesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E10152616C324ED0035D60B /* R2RTransitSchedulesViewController.m */; };
+		5E10152E16C38A7E0035D60B /* LeftTriangle20px.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E10152C16C38A7E0035D60B /* LeftTriangle20px.png */; };
+		5E10152F16C38A7E0035D60B /* RightTriangle20px.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E10152D16C38A7E0035D60B /* RightTriangle20px.png */; };
+		5E16F264163E021A00740B07 /* R2RTransitSegmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E16F263163E021A00740B07 /* R2RTransitSegmentViewController.m */; };
+		5E16F26C163E320900740B07 /* R2RTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E16F26B163E320900740B07 /* R2RTableView.m */; };
+		5E16F26F163E3A9800740B07 /* R2RConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E16F26E163E3A9700740B07 /* R2RConstants.m */; };
+		5E16F272163F548E00740B07 /* R2RWalkDriveSegmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E16F271163F548D00740B07 /* R2RWalkDriveSegmentViewController.m */; };
+		5E16F276163F623800740B07 /* R2RDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E16F275163F623700740B07 /* R2RDetailViewController.m */; };
+		5E1BE0211623D493002F7CBB /* R2RFlightGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1BE0201623D493002F7CBB /* R2RFlightGroup.m */; };
+		5E1BE02B1623DFE8002F7CBB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EFDB666161D672800209AA7 /* Default-568h@2x.png */; };
+		5E1BE02D1623F4F1002F7CBB /* targetIcon_orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E1BE02C1623F4F1002F7CBB /* targetIcon_orange.png */; };
+		5E1BE0A316253A6A002F7CBB /* Home_Icon_White@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E1BE0A216253A6A002F7CBB /* Home_Icon_White@2x.png */; };
+		5E23E66219D919E60060FAA6 /* Rome2rio_2_0_lines.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E23E66119D919E60060FAA6 /* Rome2rio_2_0_lines.png */; };
+		5E241EA3165C680400D44710 /* R2RMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E241EA2165C680400D44710 /* R2RMapViewController.m */; };
+		5E2438431635123F0044C8AD /* externalLinkIconGray.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E2438421635123F0044C8AD /* externalLinkIconGray.png */; };
+		5E3A083516AFAEEC006A4934 /* bg-retina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E3A083416AFAEEB006A4934 /* bg-retina.jpg */; };
+		5E42F4BA19C6D1C8007796A0 /* Rome2rio_Logo_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E42F4B919C6D1C8007796A0 /* Rome2rio_Logo_white.png */; };
+		5E5AA3C5162E2E8F00055720 /* R2RDuration.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5AA3C4162E2E8F00055720 /* R2RDuration.m */; };
+		5E5AA3D6162E89D900055720 /* R2RMapHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5AA3D5162E89D900055720 /* R2RMapHelper.m */; };
+		5E5AA3DB162F854B00055720 /* R2RPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5AA3D8162F854900055720 /* R2RPath.m */; };
+		5E5AA3DC162F854B00055720 /* R2RPathEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5AA3DA162F854A00055720 /* R2RPathEncoder.m */; };
+		5E5B282B1A37C03400CA7A75 /* R2RCurrency.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5B282A1A37C03400CA7A75 /* R2RCurrency.m */; };
+		5E639E7416507D4C00A18C20 /* R2RSpriteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E639E7316507D4A00A18C20 /* R2RSpriteView.m */; };
+		5E639EA616521B8600A18C20 /* R2RSpriteCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E639EA516521B7E00A18C20 /* R2RSpriteCache.m */; };
+		5E6FAD99186130CA007B6D5B /* R2RSearchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6FAD98186130CA007B6D5B /* R2RSearchButton.m */; };
+		5E84D3A819E667DD00C45875 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E84D3A719E667DD00C45875 /* Images.xcassets */; };
+		5E88679619CAAB4F00713804 /* Rome2rio_2_0_sprites@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E88679419CAAB4F00713804 /* Rome2rio_2_0_sprites@2x.png */; };
+		5E8DB4E516129D7500756321 /* R2RSegmentHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8DB4E416129D7400756321 /* R2RSegmentHelper.m */; };
+		5E8DB4FD1616985F00756321 /* R2RSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8DB4FC1616985E00756321 /* R2RSprite.m */; };
+		5E8DB50316192C6400756321 /* R2RFlightSegmentSectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8DB50216192C6400756321 /* R2RFlightSegmentSectionHeader.m */; };
+		5E8DB5061619341900756321 /* R2RResultSectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8DB5051619341800756321 /* R2RResultSectionHeader.m */; };
+		5E8DB50C16198E4100756321 /* R2RTransitSegmentHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8DB50B16198E3F00756321 /* R2RTransitSegmentHeader.m */; };
+		5E8DB521161BE3B800756321 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E8DB520161BE3B500756321 /* CoreLocation.framework */; };
+		5EA48D4B1640E5A2008A0ADA /* R2RAutocompleteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA48D4A1640E5A1008A0ADA /* R2RAutocompleteViewController.m */; };
+		5EA48D561641017F008A0ADA /* R2RAutocomplete.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA48D551641017F008A0ADA /* R2RAutocomplete.m */; };
+		5EA48D5C164209FA008A0ADA /* R2RInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA48D5B164209FA008A0ADA /* R2RInfoViewController.m */; };
+		5EA48D5F16422189008A0ADA /* R2RAutocompleteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA48D5E16422189008A0ADA /* R2RAutocompleteCell.m */; };
+		5EA48D6816436321008A0ADA /* R2RMasterViewStatusButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA48D6716436321008A0ADA /* R2RMasterViewStatusButton.m */; };
+		5EA48DB81643969B008A0ADA /* R2RSearchStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA48DB71643969B008A0ADA /* R2RSearchStore.m */; };
+		5EA48DBB16439DB9008A0ADA /* R2RSearchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA48DBA16439DB8008A0ADA /* R2RSearchManager.m */; };
+		5EAB83BF1A020F1D004AE552 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EAB83BD1A020F1D004AE552 /* MainStoryboard_iPad.storyboard */; };
+		5EAC705B162B8BA300BE8378 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EAC705A162B8BA300BE8378 /* MapKit.framework */; };
+		5EAC7141162BD43000BE8378 /* R2RImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAC7140162BD42F00BE8378 /* R2RImageLoader.m */; };
+		5EAC7147162D0A2E00BE8378 /* R2RSpriteStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAC7146162D0A2D00BE8378 /* R2RSpriteStore.m */; };
+		5EB02F77166C3BA4009C0A6C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5EB02F76166C3BA4009C0A6C /* Localizable.strings */; };
+		5EB02F7A166C6666009C0A6C /* R2RAppRater.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB02F79166C6664009C0A6C /* R2RAppRater.m */; };
+		5EB02F7C166ECDFA009C0A6C /* ConnectionLines-v2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EB02F7B166ECDFA009C0A6C /* ConnectionLines-v2.png */; };
+		5EB4AE26166830A0009E65BE /* GrabTransparent1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EB4AE25166830A0009E65BE /* GrabTransparent1.png */; };
+		5EB4AE2C16685A9E009E65BE /* Home_Icon_White.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EB4AE2B16685A9D009E65BE /* Home_Icon_White.png */; };
+		5EB91A13165EF4560015C0A1 /* R2RPressAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB91A12165EF4560015C0A1 /* R2RPressAnnotationView.m */; };
+		5EB91A16165EFB8E0015C0A1 /* R2RAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB91A15165EFB8E0015C0A1 /* R2RAnnotation.m */; };
+		5EB94E5A16B2120D00E8F954 /* fullscreen1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EB94E5816B2120D00E8F954 /* fullscreen1.png */; };
+		5EB94E5B16B2120D00E8F954 /* fullscreen2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EB94E5916B2120D00E8F954 /* fullscreen2.png */; };
+		5EC20327164B3FC300B1F45A /* R2RExpandedFlightSegmentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC20326164B3FC200B1F45A /* R2RExpandedFlightSegmentCell.m */; };
+		5EC399061862C9ED00F1FAE2 /* R2RKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC399051862C9ED00F1FAE2 /* R2RKeys.m */; };
+		5ECC87AE1C03ECFD003CE940 /* Rome2Rio-API.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5ECC87AD1C03ECFD003CE940 /* Rome2Rio-API.plist */; };
+		5ECC87B01C03ED8F003CE940 /* Rome2Rio-API.plist.example in Resources */ = {isa = PBXBuildFile; fileRef = 5ECC87AF1C03ED8F003CE940 /* Rome2Rio-API.plist.example */; };
+		5ED4B34C1601D01C00E9FE42 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ED4B34B1601D01C00E9FE42 /* UIKit.framework */; };
+		5ED4B34E1601D01C00E9FE42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ED4B34D1601D01C00E9FE42 /* Foundation.framework */; };
+		5ED4B3501601D01C00E9FE42 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ED4B34F1601D01C00E9FE42 /* CoreGraphics.framework */; };
+		5ED4B3561601D01C00E9FE42 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5ED4B3541601D01C00E9FE42 /* InfoPlist.strings */; };
+		5ED4B3581601D01C00E9FE42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED4B3571601D01C00E9FE42 /* main.m */; };
+		5ED4B35C1601D01C00E9FE42 /* R2RAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED4B35B1601D01C00E9FE42 /* R2RAppDelegate.m */; };
+		5ED4B35F1601D01C00E9FE42 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ED4B35D1601D01C00E9FE42 /* MainStoryboard.storyboard */; };
+		5ED4B3621601D01C00E9FE42 /* R2RMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED4B3611601D01C00E9FE42 /* R2RMasterViewController.m */; };
+		5ED4B3B51601D07000E9FE42 /* R2RAirline.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED4B36F1601D07000E9FE42 /* R2RAirline.m */; };
+		5ED4B3B61601D07000E9FE42 /* R2RAirport.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED4B3711601D07000E9FE42 /* R2RAirport.m */; };
+		5ED4B3B71601D07000E9FE42 /* R2RConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED4B3731601D07000E9FE42 /* R2RConnection.m */; };
+		5ED4B3B91601D07000E9FE42 /* R2RFlightHop.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED4B3771601D07000E9FE42 /* R2RFlightHop.m */; };
+		5ED4B3BA1601D07000E9FE42 /* R2RFlightItinerary.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED4B3791601D07000E9FE42 /* R2RFlightItinerary.m */; };
+		5ED4B3BB1601D07000E9FE42 /* R2RFlightLeg.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED4B37B1601D07000E9FE42 /* R2RFlightLeg.m */; };
+		5ED4B3BC1601D07000E9FE42 /* R2RFlightSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED4B37D1601D07000E9FE42 /* R2RFlightSegment.m */; };
+		5ED4B3BD1601D07000E9FE42 /* R2RFlightSegmentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED4B37F1601D07000E9FE42 /* R2RFlightSegmentCell.m */; };
+		5ED4B3BF1601D07000E9FE42 /* R2RFlightTicket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED4B3831601D07000E9FE42 /* R2RFlightTicket.m */; };
+		5ED4B3C01601D07000E9FE42 /* R2RFlightTicketSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED4B3851601D07000E9FE42 /* R2RFlightTicketSet.m */; };
+		5ED4B3C21601D07000E9FE42 /* R2RGeocodeResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED4B3891601D07000E9FE42 /* R2RGeocodeResponse.m */; };
+		5ED4B3C41601D07000E9FE42 /* R2RNameCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED4B38D1601D07000E9FE42 /* R2RNameCell.m */; };
+		5ED4B3C51601D07000E9FE42 /* R2RPlace.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED4B38F1601D07000E9FE42 /* R2RPlace.m */; };
+		5ED4B3C61601D07000E9FE42 /* R2RPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED4B3911601D07000E9FE42 /* R2RPosition.m */; };
+		5ED4B3C71601D07000E9FE42 /* R2RPrintSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED4B3931601D07000E9FE42 /* R2RPrintSearch.m */; };
+		5ED4B3C81601D07000E9FE42 /* R2RResultsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED4B3951601D07000E9FE42 /* R2RResultsCell.m */; };
+		5ED4B3C91601D07000E9FE42 /* R2RResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED4B3971601D07000E9FE42 /* R2RResultsViewController.m */; };
+		5ED4B3CA1601D07000E9FE42 /* R2RRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED4B3991601D07000E9FE42 /* R2RRoute.m */; };
+		5ED4B3CB1601D07000E9FE42 /* R2RSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED4B39B1601D07000E9FE42 /* R2RSearch.m */; };
+		5ED4B3CC1601D07000E9FE42 /* R2RSearchResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED4B39D1601D07000E9FE42 /* R2RSearchResponse.m */; };
+		5ED4B3CE1601D07000E9FE42 /* R2RStop.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED4B3A11601D07000E9FE42 /* R2RStop.m */; };
+		5ED4B3CF1601D07000E9FE42 /* R2RTransitHop.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED4B3A31601D07000E9FE42 /* R2RTransitHop.m */; };
+		5ED4B3D01601D07000E9FE42 /* R2RTransitItinerary.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED4B3A51601D07000E9FE42 /* R2RTransitItinerary.m */; };
+		5ED4B3D11601D07000E9FE42 /* R2RTransitLeg.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED4B3A71601D07000E9FE42 /* R2RTransitLeg.m */; };
+		5ED4B3D21601D07000E9FE42 /* R2RTransitSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED4B3A91601D07000E9FE42 /* R2RTransitSegment.m */; };
+		5ED4B3D31601D07000E9FE42 /* R2RTransitSegmentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED4B3AB1601D07000E9FE42 /* R2RTransitSegmentCell.m */; };
+		5ED4B3D51601D07000E9FE42 /* R2RWalkDriveSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED4B3AF1601D07000E9FE42 /* R2RWalkDriveSegment.m */; };
+		5ED4B3D61601D07000E9FE42 /* R2RWalkDriveSegmentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED4B3B11601D07000E9FE42 /* R2RWalkDriveSegmentCell.m */; };
+		5ED4B3ED1602D05A00E9FE42 /* R2RFlightSegmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED4B3EC1602D05A00E9FE42 /* R2RFlightSegmentViewController.m */; };
+		5ED4B3F61602D3AF00E9FE42 /* R2RFlightHopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED4B3F51602D3AE00E9FE42 /* R2RFlightHopCell.m */; };
+		5ED4B3F91602D3C300E9FE42 /* R2RTransitHopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED4B3F81602D3C300E9FE42 /* R2RTransitHopCell.m */; };
+		5ED4B3FC1602D3D700E9FE42 /* R2RWalkDriveHopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED4B3FB1602D3D700E9FE42 /* R2RWalkDriveHopCell.m */; };
+		5ED5C8CC16082D34004CFDC8 /* R2RStatusButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED5C8CB16082D34004CFDC8 /* R2RStatusButton.m */; };
+		5ED5C8DA160B012A004CFDC8 /* R2RStringFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED5C8D9160B012A004CFDC8 /* R2RStringFormatter.m */; };
+		5EDBB1DC19D26BC600AED04F /* R2RIndicativePrice.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDBB1DB19D26BC600AED04F /* R2RIndicativePrice.m */; };
+		5EDEDCBC161E79960005CADD /* R2RAgency.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDEDCBB161E79960005CADD /* R2RAgency.m */; };
+		5EDEDCBF161E7A200005CADD /* R2RTransitLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDEDCBE161E7A200005CADD /* R2RTransitLine.m */; };
+		5EEAB38719C7D325001A210F /* Rome2rio_Logo_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EEAB38619C7D325001A210F /* Rome2rio_Logo_white@2x.png */; };
+		5EF40B7A16C21820008A90E4 /* R2RSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF40B7916C21820008A90E4 /* R2RSerializer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5E0C56B816C1E4C80085768C /* Blue_dot-24px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue_dot-24px.png"; sourceTree = "<group>"; };
+		5E10152516C324ED0035D60B /* R2RTransitSchedulesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RTransitSchedulesViewController.h; sourceTree = "<group>"; };
+		5E10152616C324ED0035D60B /* R2RTransitSchedulesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RTransitSchedulesViewController.m; sourceTree = "<group>"; };
+		5E10152C16C38A7E0035D60B /* LeftTriangle20px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LeftTriangle20px.png; sourceTree = "<group>"; };
+		5E10152D16C38A7E0035D60B /* RightTriangle20px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RightTriangle20px.png; sourceTree = "<group>"; };
+		5E16F262163E021A00740B07 /* R2RTransitSegmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RTransitSegmentViewController.h; sourceTree = "<group>"; };
+		5E16F263163E021A00740B07 /* R2RTransitSegmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RTransitSegmentViewController.m; sourceTree = "<group>"; };
+		5E16F26A163E320800740B07 /* R2RTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RTableView.h; sourceTree = "<group>"; };
+		5E16F26B163E320900740B07 /* R2RTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RTableView.m; sourceTree = "<group>"; };
+		5E16F26D163E3A9700740B07 /* R2RConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RConstants.h; sourceTree = "<group>"; };
+		5E16F26E163E3A9700740B07 /* R2RConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RConstants.m; sourceTree = "<group>"; };
+		5E16F270163F548D00740B07 /* R2RWalkDriveSegmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RWalkDriveSegmentViewController.h; sourceTree = "<group>"; };
+		5E16F271163F548D00740B07 /* R2RWalkDriveSegmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RWalkDriveSegmentViewController.m; sourceTree = "<group>"; };
+		5E16F274163F623700740B07 /* R2RDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RDetailViewController.h; sourceTree = "<group>"; };
+		5E16F275163F623700740B07 /* R2RDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RDetailViewController.m; sourceTree = "<group>"; };
+		5E1BE01F1623D493002F7CBB /* R2RFlightGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RFlightGroup.h; sourceTree = "<group>"; };
+		5E1BE0201623D493002F7CBB /* R2RFlightGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RFlightGroup.m; sourceTree = "<group>"; };
+		5E1BE02C1623F4F1002F7CBB /* targetIcon_orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = targetIcon_orange.png; sourceTree = "<group>"; };
+		5E1BE0A216253A6A002F7CBB /* Home_Icon_White@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home_Icon_White@2x.png"; sourceTree = "<group>"; };
+		5E1E21D31627C64F00763152 /* R2RLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = R2RLog.h; path = ../../Rome2Rio/Rome2Rio/R2RLog.h; sourceTree = "<group>"; };
+		5E23E66119D919E60060FAA6 /* Rome2rio_2_0_lines.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rome2rio_2_0_lines.png; sourceTree = "<group>"; };
+		5E241EA1165C680400D44710 /* R2RMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RMapViewController.h; sourceTree = "<group>"; };
+		5E241EA2165C680400D44710 /* R2RMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RMapViewController.m; sourceTree = "<group>"; };
+		5E2438421635123F0044C8AD /* externalLinkIconGray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = externalLinkIconGray.png; sourceTree = "<group>"; };
+		5E3A083416AFAEEB006A4934 /* bg-retina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg-retina.jpg"; sourceTree = "<group>"; };
+		5E42F4B919C6D1C8007796A0 /* Rome2rio_Logo_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rome2rio_Logo_white.png; sourceTree = "<group>"; };
+		5E5AA3C3162E2E8F00055720 /* R2RDuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RDuration.h; sourceTree = "<group>"; };
+		5E5AA3C4162E2E8F00055720 /* R2RDuration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RDuration.m; sourceTree = "<group>"; };
+		5E5AA3D4162E89D800055720 /* R2RMapHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = R2RMapHelper.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		5E5AA3D5162E89D900055720 /* R2RMapHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = R2RMapHelper.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		5E5AA3D7162F854800055720 /* R2RPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RPath.h; sourceTree = "<group>"; };
+		5E5AA3D8162F854900055720 /* R2RPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RPath.m; sourceTree = "<group>"; };
+		5E5AA3D9162F854A00055720 /* R2RPathEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RPathEncoder.h; sourceTree = "<group>"; };
+		5E5AA3DA162F854A00055720 /* R2RPathEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RPathEncoder.m; sourceTree = "<group>"; };
+		5E5B28291A37C03400CA7A75 /* R2RCurrency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RCurrency.h; sourceTree = "<group>"; };
+		5E5B282A1A37C03400CA7A75 /* R2RCurrency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RCurrency.m; sourceTree = "<group>"; };
+		5E639E7216507D4800A18C20 /* R2RSpriteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RSpriteView.h; sourceTree = "<group>"; };
+		5E639E7316507D4A00A18C20 /* R2RSpriteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RSpriteView.m; sourceTree = "<group>"; };
+		5E639EA21650C53200A18C20 /* R2RCompletionState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = R2RCompletionState.h; sourceTree = "<group>"; };
+		5E639EA416521B7400A18C20 /* R2RSpriteCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RSpriteCache.h; sourceTree = "<group>"; };
+		5E639EA516521B7E00A18C20 /* R2RSpriteCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RSpriteCache.m; sourceTree = "<group>"; };
+		5E6FAD97186130CA007B6D5B /* R2RSearchButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RSearchButton.h; sourceTree = "<group>"; };
+		5E6FAD98186130CA007B6D5B /* R2RSearchButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RSearchButton.m; sourceTree = "<group>"; };
+		5E84D3A719E667DD00C45875 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5E88679419CAAB4F00713804 /* Rome2rio_2_0_sprites@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rome2rio_2_0_sprites@2x.png"; sourceTree = "<group>"; };
+		5E8DB4E316129D7400756321 /* R2RSegmentHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RSegmentHelper.h; sourceTree = "<group>"; };
+		5E8DB4E416129D7400756321 /* R2RSegmentHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RSegmentHelper.m; sourceTree = "<group>"; };
+		5E8DB4FB1616985C00756321 /* R2RSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RSprite.h; sourceTree = "<group>"; };
+		5E8DB4FC1616985E00756321 /* R2RSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RSprite.m; sourceTree = "<group>"; };
+		5E8DB50116192C6300756321 /* R2RFlightSegmentSectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RFlightSegmentSectionHeader.h; sourceTree = "<group>"; };
+		5E8DB50216192C6400756321 /* R2RFlightSegmentSectionHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RFlightSegmentSectionHeader.m; sourceTree = "<group>"; };
+		5E8DB5041619341700756321 /* R2RResultSectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RResultSectionHeader.h; sourceTree = "<group>"; };
+		5E8DB5051619341800756321 /* R2RResultSectionHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RResultSectionHeader.m; sourceTree = "<group>"; };
+		5E8DB50A16198E3E00756321 /* R2RTransitSegmentHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RTransitSegmentHeader.h; sourceTree = "<group>"; };
+		5E8DB50B16198E3F00756321 /* R2RTransitSegmentHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RTransitSegmentHeader.m; sourceTree = "<group>"; };
+		5E8DB520161BE3B500756321 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5EA48D491640E5A1008A0ADA /* R2RAutocompleteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RAutocompleteViewController.h; sourceTree = "<group>"; };
+		5EA48D4A1640E5A1008A0ADA /* R2RAutocompleteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RAutocompleteViewController.m; sourceTree = "<group>"; };
+		5EA48D541641017F008A0ADA /* R2RAutocomplete.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RAutocomplete.h; sourceTree = "<group>"; };
+		5EA48D551641017F008A0ADA /* R2RAutocomplete.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RAutocomplete.m; sourceTree = "<group>"; };
+		5EA48D5A164209FA008A0ADA /* R2RInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RInfoViewController.h; sourceTree = "<group>"; };
+		5EA48D5B164209FA008A0ADA /* R2RInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RInfoViewController.m; sourceTree = "<group>"; };
+		5EA48D5D16422189008A0ADA /* R2RAutocompleteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RAutocompleteCell.h; sourceTree = "<group>"; };
+		5EA48D5E16422189008A0ADA /* R2RAutocompleteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RAutocompleteCell.m; sourceTree = "<group>"; };
+		5EA48D6616436321008A0ADA /* R2RMasterViewStatusButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RMasterViewStatusButton.h; sourceTree = "<group>"; };
+		5EA48D6716436321008A0ADA /* R2RMasterViewStatusButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RMasterViewStatusButton.m; sourceTree = "<group>"; };
+		5EA48DB61643969A008A0ADA /* R2RSearchStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RSearchStore.h; sourceTree = "<group>"; };
+		5EA48DB71643969B008A0ADA /* R2RSearchStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RSearchStore.m; sourceTree = "<group>"; };
+		5EA48DB916439DB7008A0ADA /* R2RSearchManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RSearchManager.h; sourceTree = "<group>"; };
+		5EA48DBA16439DB8008A0ADA /* R2RSearchManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RSearchManager.m; sourceTree = "<group>"; };
+		5EAB83BE1A020F1D004AE552 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		5EAC705A162B8BA300BE8378 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5EAC713F162BD42F00BE8378 /* R2RImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RImageLoader.h; sourceTree = "<group>"; };
+		5EAC7140162BD42F00BE8378 /* R2RImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RImageLoader.m; sourceTree = "<group>"; };
+		5EAC7145162D0A2D00BE8378 /* R2RSpriteStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RSpriteStore.h; sourceTree = "<group>"; };
+		5EAC7146162D0A2D00BE8378 /* R2RSpriteStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RSpriteStore.m; sourceTree = "<group>"; };
+		5EB02F76166C3BA4009C0A6C /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		5EB02F78166C6662009C0A6C /* R2RAppRater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RAppRater.h; sourceTree = "<group>"; };
+		5EB02F79166C6664009C0A6C /* R2RAppRater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RAppRater.m; sourceTree = "<group>"; };
+		5EB02F7B166ECDFA009C0A6C /* ConnectionLines-v2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ConnectionLines-v2.png"; sourceTree = "<group>"; };
+		5EB4AE25166830A0009E65BE /* GrabTransparent1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GrabTransparent1.png; sourceTree = "<group>"; };
+		5EB4AE2B16685A9D009E65BE /* Home_Icon_White.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home_Icon_White.png; sourceTree = "<group>"; };
+		5EB91A11165EF4560015C0A1 /* R2RPressAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RPressAnnotationView.h; sourceTree = "<group>"; };
+		5EB91A12165EF4560015C0A1 /* R2RPressAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RPressAnnotationView.m; sourceTree = "<group>"; };
+		5EB91A14165EFB8E0015C0A1 /* R2RAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RAnnotation.h; sourceTree = "<group>"; };
+		5EB91A15165EFB8E0015C0A1 /* R2RAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RAnnotation.m; sourceTree = "<group>"; };
+		5EB94E5816B2120D00E8F954 /* fullscreen1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fullscreen1.png; sourceTree = "<group>"; };
+		5EB94E5916B2120D00E8F954 /* fullscreen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fullscreen2.png; sourceTree = "<group>"; };
+		5EC20325164B3FC000B1F45A /* R2RExpandedFlightSegmentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RExpandedFlightSegmentCell.h; sourceTree = "<group>"; };
+		5EC20326164B3FC200B1F45A /* R2RExpandedFlightSegmentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RExpandedFlightSegmentCell.m; sourceTree = "<group>"; };
+		5EC399041862C9ED00F1FAE2 /* R2RKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RKeys.h; sourceTree = "<group>"; };
+		5EC399051862C9ED00F1FAE2 /* R2RKeys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RKeys.m; sourceTree = "<group>"; };
+		5ECC87AD1C03ECFD003CE940 /* Rome2Rio-API.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Rome2Rio-API.plist"; sourceTree = "<group>"; };
+		5ECC87AF1C03ED8F003CE940 /* Rome2Rio-API.plist.example */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Rome2Rio-API.plist.example"; sourceTree = "<group>"; };
+		5ED4B3471601D01C00E9FE42 /* Rome2rio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rome2rio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ED4B34B1601D01C00E9FE42 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5ED4B34D1601D01C00E9FE42 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5ED4B34F1601D01C00E9FE42 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5ED4B3531601D01C00E9FE42 /* Rome2Rio-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rome2Rio-Info.plist"; sourceTree = "<group>"; };
+		5ED4B3551601D01C00E9FE42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5ED4B3571601D01C00E9FE42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5ED4B3591601D01C00E9FE42 /* Rome2Rio-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rome2Rio-Prefix.pch"; sourceTree = "<group>"; };
+		5ED4B35A1601D01C00E9FE42 /* R2RAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = R2RAppDelegate.h; sourceTree = "<group>"; };
+		5ED4B35B1601D01C00E9FE42 /* R2RAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = R2RAppDelegate.m; sourceTree = "<group>"; };
+		5ED4B35E1601D01C00E9FE42 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		5ED4B3601601D01C00E9FE42 /* R2RMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = R2RMasterViewController.h; sourceTree = "<group>"; };
+		5ED4B3611601D01C00E9FE42 /* R2RMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = R2RMasterViewController.m; sourceTree = "<group>"; };
+		5ED4B36E1601D07000E9FE42 /* R2RAirline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RAirline.h; sourceTree = "<group>"; };
+		5ED4B36F1601D07000E9FE42 /* R2RAirline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RAirline.m; sourceTree = "<group>"; };
+		5ED4B3701601D07000E9FE42 /* R2RAirport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RAirport.h; sourceTree = "<group>"; };
+		5ED4B3711601D07000E9FE42 /* R2RAirport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RAirport.m; sourceTree = "<group>"; };
+		5ED4B3721601D07000E9FE42 /* R2RConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RConnection.h; sourceTree = "<group>"; };
+		5ED4B3731601D07000E9FE42 /* R2RConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RConnection.m; sourceTree = "<group>"; };
+		5ED4B3761601D07000E9FE42 /* R2RFlightHop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RFlightHop.h; sourceTree = "<group>"; };
+		5ED4B3771601D07000E9FE42 /* R2RFlightHop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RFlightHop.m; sourceTree = "<group>"; };
+		5ED4B3781601D07000E9FE42 /* R2RFlightItinerary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RFlightItinerary.h; sourceTree = "<group>"; };
+		5ED4B3791601D07000E9FE42 /* R2RFlightItinerary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RFlightItinerary.m; sourceTree = "<group>"; };
+		5ED4B37A1601D07000E9FE42 /* R2RFlightLeg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RFlightLeg.h; sourceTree = "<group>"; };
+		5ED4B37B1601D07000E9FE42 /* R2RFlightLeg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RFlightLeg.m; sourceTree = "<group>"; };
+		5ED4B37C1601D07000E9FE42 /* R2RFlightSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RFlightSegment.h; sourceTree = "<group>"; };
+		5ED4B37D1601D07000E9FE42 /* R2RFlightSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RFlightSegment.m; sourceTree = "<group>"; };
+		5ED4B37E1601D07000E9FE42 /* R2RFlightSegmentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RFlightSegmentCell.h; sourceTree = "<group>"; };
+		5ED4B37F1601D07000E9FE42 /* R2RFlightSegmentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RFlightSegmentCell.m; sourceTree = "<group>"; };
+		5ED4B3821601D07000E9FE42 /* R2RFlightTicket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RFlightTicket.h; sourceTree = "<group>"; };
+		5ED4B3831601D07000E9FE42 /* R2RFlightTicket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RFlightTicket.m; sourceTree = "<group>"; };
+		5ED4B3841601D07000E9FE42 /* R2RFlightTicketSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RFlightTicketSet.h; sourceTree = "<group>"; };
+		5ED4B3851601D07000E9FE42 /* R2RFlightTicketSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RFlightTicketSet.m; sourceTree = "<group>"; };
+		5ED4B3881601D07000E9FE42 /* R2RGeocodeResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RGeocodeResponse.h; sourceTree = "<group>"; };
+		5ED4B3891601D07000E9FE42 /* R2RGeocodeResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RGeocodeResponse.m; sourceTree = "<group>"; };
+		5ED4B38C1601D07000E9FE42 /* R2RNameCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RNameCell.h; sourceTree = "<group>"; };
+		5ED4B38D1601D07000E9FE42 /* R2RNameCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RNameCell.m; sourceTree = "<group>"; };
+		5ED4B38E1601D07000E9FE42 /* R2RPlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RPlace.h; sourceTree = "<group>"; };
+		5ED4B38F1601D07000E9FE42 /* R2RPlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RPlace.m; sourceTree = "<group>"; };
+		5ED4B3901601D07000E9FE42 /* R2RPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RPosition.h; sourceTree = "<group>"; };
+		5ED4B3911601D07000E9FE42 /* R2RPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RPosition.m; sourceTree = "<group>"; };
+		5ED4B3921601D07000E9FE42 /* R2RPrintSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RPrintSearch.h; sourceTree = "<group>"; };
+		5ED4B3931601D07000E9FE42 /* R2RPrintSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RPrintSearch.m; sourceTree = "<group>"; };
+		5ED4B3941601D07000E9FE42 /* R2RResultsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RResultsCell.h; sourceTree = "<group>"; };
+		5ED4B3951601D07000E9FE42 /* R2RResultsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RResultsCell.m; sourceTree = "<group>"; };
+		5ED4B3961601D07000E9FE42 /* R2RResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RResultsViewController.h; sourceTree = "<group>"; };
+		5ED4B3971601D07000E9FE42 /* R2RResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RResultsViewController.m; sourceTree = "<group>"; };
+		5ED4B3981601D07000E9FE42 /* R2RRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RRoute.h; sourceTree = "<group>"; };
+		5ED4B3991601D07000E9FE42 /* R2RRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RRoute.m; sourceTree = "<group>"; };
+		5ED4B39A1601D07000E9FE42 /* R2RSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RSearch.h; sourceTree = "<group>"; };
+		5ED4B39B1601D07000E9FE42 /* R2RSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RSearch.m; sourceTree = "<group>"; };
+		5ED4B39C1601D07000E9FE42 /* R2RSearchResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RSearchResponse.h; sourceTree = "<group>"; };
+		5ED4B39D1601D07000E9FE42 /* R2RSearchResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RSearchResponse.m; sourceTree = "<group>"; };
+		5ED4B3A01601D07000E9FE42 /* R2RStop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RStop.h; sourceTree = "<group>"; };
+		5ED4B3A11601D07000E9FE42 /* R2RStop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RStop.m; sourceTree = "<group>"; };
+		5ED4B3A21601D07000E9FE42 /* R2RTransitHop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RTransitHop.h; sourceTree = "<group>"; };
+		5ED4B3A31601D07000E9FE42 /* R2RTransitHop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RTransitHop.m; sourceTree = "<group>"; };
+		5ED4B3A41601D07000E9FE42 /* R2RTransitItinerary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RTransitItinerary.h; sourceTree = "<group>"; };
+		5ED4B3A51601D07000E9FE42 /* R2RTransitItinerary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RTransitItinerary.m; sourceTree = "<group>"; };
+		5ED4B3A61601D07000E9FE42 /* R2RTransitLeg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RTransitLeg.h; sourceTree = "<group>"; };
+		5ED4B3A71601D07000E9FE42 /* R2RTransitLeg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RTransitLeg.m; sourceTree = "<group>"; };
+		5ED4B3A81601D07000E9FE42 /* R2RTransitSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RTransitSegment.h; sourceTree = "<group>"; };
+		5ED4B3A91601D07000E9FE42 /* R2RTransitSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RTransitSegment.m; sourceTree = "<group>"; };
+		5ED4B3AA1601D07000E9FE42 /* R2RTransitSegmentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RTransitSegmentCell.h; sourceTree = "<group>"; };
+		5ED4B3AB1601D07000E9FE42 /* R2RTransitSegmentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RTransitSegmentCell.m; sourceTree = "<group>"; };
+		5ED4B3AE1601D07000E9FE42 /* R2RWalkDriveSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RWalkDriveSegment.h; sourceTree = "<group>"; };
+		5ED4B3AF1601D07000E9FE42 /* R2RWalkDriveSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RWalkDriveSegment.m; sourceTree = "<group>"; };
+		5ED4B3B01601D07000E9FE42 /* R2RWalkDriveSegmentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RWalkDriveSegmentCell.h; sourceTree = "<group>"; };
+		5ED4B3B11601D07000E9FE42 /* R2RWalkDriveSegmentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RWalkDriveSegmentCell.m; sourceTree = "<group>"; };
+		5ED4B3EB1602D05A00E9FE42 /* R2RFlightSegmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RFlightSegmentViewController.h; sourceTree = "<group>"; };
+		5ED4B3EC1602D05A00E9FE42 /* R2RFlightSegmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RFlightSegmentViewController.m; sourceTree = "<group>"; };
+		5ED4B3F41602D3AE00E9FE42 /* R2RFlightHopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RFlightHopCell.h; sourceTree = "<group>"; };
+		5ED4B3F51602D3AE00E9FE42 /* R2RFlightHopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RFlightHopCell.m; sourceTree = "<group>"; };
+		5ED4B3F71602D3C200E9FE42 /* R2RTransitHopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RTransitHopCell.h; sourceTree = "<group>"; };
+		5ED4B3F81602D3C300E9FE42 /* R2RTransitHopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RTransitHopCell.m; sourceTree = "<group>"; };
+		5ED4B3FA1602D3D700E9FE42 /* R2RWalkDriveHopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RWalkDriveHopCell.h; sourceTree = "<group>"; };
+		5ED4B3FB1602D3D700E9FE42 /* R2RWalkDriveHopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RWalkDriveHopCell.m; sourceTree = "<group>"; };
+		5ED5C8CA16082D34004CFDC8 /* R2RStatusButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RStatusButton.h; sourceTree = "<group>"; };
+		5ED5C8CB16082D34004CFDC8 /* R2RStatusButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RStatusButton.m; sourceTree = "<group>"; };
+		5ED5C8D8160B012A004CFDC8 /* R2RStringFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RStringFormatter.h; sourceTree = "<group>"; };
+		5ED5C8D9160B012A004CFDC8 /* R2RStringFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RStringFormatter.m; sourceTree = "<group>"; };
+		5EDBB1DA19D26BC600AED04F /* R2RIndicativePrice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RIndicativePrice.h; sourceTree = "<group>"; };
+		5EDBB1DB19D26BC600AED04F /* R2RIndicativePrice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RIndicativePrice.m; sourceTree = "<group>"; };
+		5EDEDCBA161E79960005CADD /* R2RAgency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RAgency.h; sourceTree = "<group>"; };
+		5EDEDCBB161E79960005CADD /* R2RAgency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RAgency.m; sourceTree = "<group>"; };
+		5EDEDCBD161E7A1F0005CADD /* R2RTransitLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RTransitLine.h; sourceTree = "<group>"; };
+		5EDEDCBE161E7A200005CADD /* R2RTransitLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RTransitLine.m; sourceTree = "<group>"; };
+		5EEA1BDD16FFF62D000E0C22 /* Rome2Rio.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = Rome2Rio.geojson; sourceTree = SOURCE_ROOT; };
+		5EEAB38619C7D325001A210F /* Rome2rio_Logo_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rome2rio_Logo_white@2x.png"; sourceTree = "<group>"; };
+		5EF40B7816C21820008A90E4 /* R2RSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R2RSerializer.h; sourceTree = "<group>"; };
+		5EF40B7916C21820008A90E4 /* R2RSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R2RSerializer.m; sourceTree = "<group>"; };
+		5EFDB666161D672800209AA7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../../Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5ED4B3441601D01C00E9FE42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EAC705B162B8BA300BE8378 /* MapKit.framework in Frameworks */,
+				5E8DB521161BE3B800756321 /* CoreLocation.framework in Frameworks */,
+				5ED4B34C1601D01C00E9FE42 /* UIKit.framework in Frameworks */,
+				5ED4B34E1601D01C00E9FE42 /* Foundation.framework in Frameworks */,
+				5ED4B3501601D01C00E9FE42 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E639EA31650CA7B00A18C20 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				5E639EA21650C53200A18C20 /* R2RCompletionState.h */,
+				5EA48D541641017F008A0ADA /* R2RAutocomplete.h */,
+				5EA48D551641017F008A0ADA /* R2RAutocomplete.m */,
+				5ED4B39A1601D07000E9FE42 /* R2RSearch.h */,
+				5ED4B39B1601D07000E9FE42 /* R2RSearch.m */,
+				5EA48DB916439DB7008A0ADA /* R2RSearchManager.h */,
+				5EA48DBA16439DB8008A0ADA /* R2RSearchManager.m */,
+				5EA48DB61643969A008A0ADA /* R2RSearchStore.h */,
+				5EA48DB71643969B008A0ADA /* R2RSearchStore.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		5ED4B33C1601D01C00E9FE42 = {
+			isa = PBXGroup;
+			children = (
+				5ED4B3511601D01C00E9FE42 /* Rome2Rio */,
+				5ED4B34A1601D01C00E9FE42 /* Frameworks */,
+				5ED4B3481601D01C00E9FE42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5ED4B3481601D01C00E9FE42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5ED4B3471601D01C00E9FE42 /* Rome2rio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5ED4B34A1601D01C00E9FE42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5EAC705A162B8BA300BE8378 /* MapKit.framework */,
+				5E8DB520161BE3B500756321 /* CoreLocation.framework */,
+				5ED4B34B1601D01C00E9FE42 /* UIKit.framework */,
+				5ED4B34D1601D01C00E9FE42 /* Foundation.framework */,
+				5ED4B34F1601D01C00E9FE42 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5ED4B3511601D01C00E9FE42 /* Rome2Rio */ = {
+			isa = PBXGroup;
+			children = (
+				5ED4B35A1601D01C00E9FE42 /* R2RAppDelegate.h */,
+				5ED4B35B1601D01C00E9FE42 /* R2RAppDelegate.m */,
+				5ED4B35D1601D01C00E9FE42 /* MainStoryboard.storyboard */,
+				5EAB83BD1A020F1D004AE552 /* MainStoryboard_iPad.storyboard */,
+				5EEA1BDD16FFF62D000E0C22 /* Rome2Rio.geojson */,
+				5E639EA31650CA7B00A18C20 /* Core */,
+				5ED4B3D81601D08300E9FE42 /* Controllers */,
+				5ED4B3D91601D0FC00E9FE42 /* Helpers */,
+				5ED4B3DA1601D10500E9FE42 /* Views */,
+				5ED4B36B1601D05B00E9FE42 /* Models */,
+				5ED4B36C1601D07000E9FE42 /* Images */,
+				5E84D3A719E667DD00C45875 /* Images.xcassets */,
+				5ED4B3521601D01C00E9FE42 /* Supporting Files */,
+			);
+			path = Rome2Rio;
+			sourceTree = "<group>";
+		};
+		5ED4B3521601D01C00E9FE42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5ED4B3531601D01C00E9FE42 /* Rome2Rio-Info.plist */,
+				5ED4B3541601D01C00E9FE42 /* InfoPlist.strings */,
+				5ED4B3571601D01C00E9FE42 /* main.m */,
+				5ED4B3591601D01C00E9FE42 /* Rome2Rio-Prefix.pch */,
+				5EB02F76166C3BA4009C0A6C /* Localizable.strings */,
+				5ECC87AD1C03ECFD003CE940 /* Rome2Rio-API.plist */,
+				5ECC87AF1C03ED8F003CE940 /* Rome2Rio-API.plist.example */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5ED4B36B1601D05B00E9FE42 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5EDEDCBA161E79960005CADD /* R2RAgency.h */,
+				5EDEDCBB161E79960005CADD /* R2RAgency.m */,
+				5ED4B36E1601D07000E9FE42 /* R2RAirline.h */,
+				5ED4B36F1601D07000E9FE42 /* R2RAirline.m */,
+				5ED4B3701601D07000E9FE42 /* R2RAirport.h */,
+				5ED4B3711601D07000E9FE42 /* R2RAirport.m */,
+				5E5B28291A37C03400CA7A75 /* R2RCurrency.h */,
+				5E5B282A1A37C03400CA7A75 /* R2RCurrency.m */,
+				5E1BE01F1623D493002F7CBB /* R2RFlightGroup.h */,
+				5E1BE0201623D493002F7CBB /* R2RFlightGroup.m */,
+				5ED4B3761601D07000E9FE42 /* R2RFlightHop.h */,
+				5ED4B3771601D07000E9FE42 /* R2RFlightHop.m */,
+				5ED4B3781601D07000E9FE42 /* R2RFlightItinerary.h */,
+				5ED4B3791601D07000E9FE42 /* R2RFlightItinerary.m */,
+				5ED4B37A1601D07000E9FE42 /* R2RFlightLeg.h */,
+				5ED4B37B1601D07000E9FE42 /* R2RFlightLeg.m */,
+				5ED4B37C1601D07000E9FE42 /* R2RFlightSegment.h */,
+				5ED4B37D1601D07000E9FE42 /* R2RFlightSegment.m */,
+				5ED4B3821601D07000E9FE42 /* R2RFlightTicket.h */,
+				5ED4B3831601D07000E9FE42 /* R2RFlightTicket.m */,
+				5ED4B3841601D07000E9FE42 /* R2RFlightTicketSet.h */,
+				5ED4B3851601D07000E9FE42 /* R2RFlightTicketSet.m */,
+				5ED4B3881601D07000E9FE42 /* R2RGeocodeResponse.h */,
+				5ED4B3891601D07000E9FE42 /* R2RGeocodeResponse.m */,
+				5EDBB1DA19D26BC600AED04F /* R2RIndicativePrice.h */,
+				5EDBB1DB19D26BC600AED04F /* R2RIndicativePrice.m */,
+				5E5AA3D7162F854800055720 /* R2RPath.h */,
+				5E5AA3D8162F854900055720 /* R2RPath.m */,
+				5ED4B38E1601D07000E9FE42 /* R2RPlace.h */,
+				5ED4B38F1601D07000E9FE42 /* R2RPlace.m */,
+				5ED4B3901601D07000E9FE42 /* R2RPosition.h */,
+				5ED4B3911601D07000E9FE42 /* R2RPosition.m */,
+				5ED4B3981601D07000E9FE42 /* R2RRoute.h */,
+				5ED4B3991601D07000E9FE42 /* R2RRoute.m */,
+				5ED4B39C1601D07000E9FE42 /* R2RSearchResponse.h */,
+				5ED4B39D1601D07000E9FE42 /* R2RSearchResponse.m */,
+				5E639E7216507D4800A18C20 /* R2RSpriteView.h */,
+				5E639E7316507D4A00A18C20 /* R2RSpriteView.m */,
+				5ED4B3A01601D07000E9FE42 /* R2RStop.h */,
+				5ED4B3A11601D07000E9FE42 /* R2RStop.m */,
+				5ED4B3A21601D07000E9FE42 /* R2RTransitHop.h */,
+				5ED4B3A31601D07000E9FE42 /* R2RTransitHop.m */,
+				5ED4B3A41601D07000E9FE42 /* R2RTransitItinerary.h */,
+				5ED4B3A51601D07000E9FE42 /* R2RTransitItinerary.m */,
+				5ED4B3A61601D07000E9FE42 /* R2RTransitLeg.h */,
+				5ED4B3A71601D07000E9FE42 /* R2RTransitLeg.m */,
+				5EDEDCBD161E7A1F0005CADD /* R2RTransitLine.h */,
+				5EDEDCBE161E7A200005CADD /* R2RTransitLine.m */,
+				5ED4B3A81601D07000E9FE42 /* R2RTransitSegment.h */,
+				5ED4B3A91601D07000E9FE42 /* R2RTransitSegment.m */,
+				5ED4B3AE1601D07000E9FE42 /* R2RWalkDriveSegment.h */,
+				5ED4B3AF1601D07000E9FE42 /* R2RWalkDriveSegment.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		5ED4B36C1601D07000E9FE42 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5E23E66119D919E60060FAA6 /* Rome2rio_2_0_lines.png */,
+				5E88679419CAAB4F00713804 /* Rome2rio_2_0_sprites@2x.png */,
+				5EEAB38619C7D325001A210F /* Rome2rio_Logo_white@2x.png */,
+				5E42F4B919C6D1C8007796A0 /* Rome2rio_Logo_white.png */,
+				5EB94E5816B2120D00E8F954 /* fullscreen1.png */,
+				5EB94E5916B2120D00E8F954 /* fullscreen2.png */,
+				5EB02F7B166ECDFA009C0A6C /* ConnectionLines-v2.png */,
+				5EFDB666161D672800209AA7 /* Default-568h@2x.png */,
+				5E1BE02C1623F4F1002F7CBB /* targetIcon_orange.png */,
+				5E3A083416AFAEEB006A4934 /* bg-retina.jpg */,
+				5EB4AE2B16685A9D009E65BE /* Home_Icon_White.png */,
+				5E1BE0A216253A6A002F7CBB /* Home_Icon_White@2x.png */,
+				5E2438421635123F0044C8AD /* externalLinkIconGray.png */,
+				5EB4AE25166830A0009E65BE /* GrabTransparent1.png */,
+				5E0C56B816C1E4C80085768C /* Blue_dot-24px.png */,
+				5E10152C16C38A7E0035D60B /* LeftTriangle20px.png */,
+				5E10152D16C38A7E0035D60B /* RightTriangle20px.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		5ED4B3D81601D08300E9FE42 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5ED4B3601601D01C00E9FE42 /* R2RMasterViewController.h */,
+				5ED4B3611601D01C00E9FE42 /* R2RMasterViewController.m */,
+				5ED4B3961601D07000E9FE42 /* R2RResultsViewController.h */,
+				5ED4B3971601D07000E9FE42 /* R2RResultsViewController.m */,
+				5E16F274163F623700740B07 /* R2RDetailViewController.h */,
+				5E16F275163F623700740B07 /* R2RDetailViewController.m */,
+				5ED4B3EB1602D05A00E9FE42 /* R2RFlightSegmentViewController.h */,
+				5ED4B3EC1602D05A00E9FE42 /* R2RFlightSegmentViewController.m */,
+				5E16F262163E021A00740B07 /* R2RTransitSegmentViewController.h */,
+				5E16F263163E021A00740B07 /* R2RTransitSegmentViewController.m */,
+				5E16F270163F548D00740B07 /* R2RWalkDriveSegmentViewController.h */,
+				5E16F271163F548D00740B07 /* R2RWalkDriveSegmentViewController.m */,
+				5EA48D491640E5A1008A0ADA /* R2RAutocompleteViewController.h */,
+				5EA48D4A1640E5A1008A0ADA /* R2RAutocompleteViewController.m */,
+				5EA48D5A164209FA008A0ADA /* R2RInfoViewController.h */,
+				5EA48D5B164209FA008A0ADA /* R2RInfoViewController.m */,
+				5E241EA1165C680400D44710 /* R2RMapViewController.h */,
+				5E241EA2165C680400D44710 /* R2RMapViewController.m */,
+				5E10152516C324ED0035D60B /* R2RTransitSchedulesViewController.h */,
+				5E10152616C324ED0035D60B /* R2RTransitSchedulesViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		5ED4B3D91601D0FC00E9FE42 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5ED4B3721601D07000E9FE42 /* R2RConnection.h */,
+				5ED4B3731601D07000E9FE42 /* R2RConnection.m */,
+				5EB91A14165EFB8E0015C0A1 /* R2RAnnotation.h */,
+				5EB91A15165EFB8E0015C0A1 /* R2RAnnotation.m */,
+				5E16F26D163E3A9700740B07 /* R2RConstants.h */,
+				5E16F26E163E3A9700740B07 /* R2RConstants.m */,
+				5EC399041862C9ED00F1FAE2 /* R2RKeys.h */,
+				5EC399051862C9ED00F1FAE2 /* R2RKeys.m */,
+				5E5AA3C3162E2E8F00055720 /* R2RDuration.h */,
+				5E5AA3C4162E2E8F00055720 /* R2RDuration.m */,
+				5EAC713F162BD42F00BE8378 /* R2RImageLoader.h */,
+				5EAC7140162BD42F00BE8378 /* R2RImageLoader.m */,
+				5E1E21D31627C64F00763152 /* R2RLog.h */,
+				5E5AA3D4162E89D800055720 /* R2RMapHelper.h */,
+				5E5AA3D5162E89D900055720 /* R2RMapHelper.m */,
+				5E5AA3D9162F854A00055720 /* R2RPathEncoder.h */,
+				5E5AA3DA162F854A00055720 /* R2RPathEncoder.m */,
+				5ED4B3921601D07000E9FE42 /* R2RPrintSearch.h */,
+				5ED4B3931601D07000E9FE42 /* R2RPrintSearch.m */,
+				5E8DB4E316129D7400756321 /* R2RSegmentHelper.h */,
+				5E8DB4E416129D7400756321 /* R2RSegmentHelper.m */,
+				5E8DB4FB1616985C00756321 /* R2RSprite.h */,
+				5E8DB4FC1616985E00756321 /* R2RSprite.m */,
+				5E639EA416521B7400A18C20 /* R2RSpriteCache.h */,
+				5E639EA516521B7E00A18C20 /* R2RSpriteCache.m */,
+				5EAC7145162D0A2D00BE8378 /* R2RSpriteStore.h */,
+				5EAC7146162D0A2D00BE8378 /* R2RSpriteStore.m */,
+				5ED5C8D8160B012A004CFDC8 /* R2RStringFormatter.h */,
+				5ED5C8D9160B012A004CFDC8 /* R2RStringFormatter.m */,
+				5EB02F78166C6662009C0A6C /* R2RAppRater.h */,
+				5EB02F79166C6664009C0A6C /* R2RAppRater.m */,
+				5EF40B7816C21820008A90E4 /* R2RSerializer.h */,
+				5EF40B7916C21820008A90E4 /* R2RSerializer.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		5ED4B3DA1601D10500E9FE42 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5EA48D5D16422189008A0ADA /* R2RAutocompleteCell.h */,
+				5EA48D5E16422189008A0ADA /* R2RAutocompleteCell.m */,
+				5EC20325164B3FC000B1F45A /* R2RExpandedFlightSegmentCell.h */,
+				5EC20326164B3FC200B1F45A /* R2RExpandedFlightSegmentCell.m */,
+				5ED4B3F41602D3AE00E9FE42 /* R2RFlightHopCell.h */,
+				5ED4B3F51602D3AE00E9FE42 /* R2RFlightHopCell.m */,
+				5ED4B37E1601D07000E9FE42 /* R2RFlightSegmentCell.h */,
+				5ED4B37F1601D07000E9FE42 /* R2RFlightSegmentCell.m */,
+				5E8DB50116192C6300756321 /* R2RFlightSegmentSectionHeader.h */,
+				5E8DB50216192C6400756321 /* R2RFlightSegmentSectionHeader.m */,
+				5EA48D6616436321008A0ADA /* R2RMasterViewStatusButton.h */,
+				5EA48D6716436321008A0ADA /* R2RMasterViewStatusButton.m */,
+				5ED4B38C1601D07000E9FE42 /* R2RNameCell.h */,
+				5ED4B38D1601D07000E9FE42 /* R2RNameCell.m */,
+				5EB91A11165EF4560015C0A1 /* R2RPressAnnotationView.h */,
+				5EB91A12165EF4560015C0A1 /* R2RPressAnnotationView.m */,
+				5ED4B3941601D07000E9FE42 /* R2RResultsCell.h */,
+				5ED4B3951601D07000E9FE42 /* R2RResultsCell.m */,
+				5E8DB5041619341700756321 /* R2RResultSectionHeader.h */,
+				5E8DB5051619341800756321 /* R2RResultSectionHeader.m */,
+				5ED5C8CA16082D34004CFDC8 /* R2RStatusButton.h */,
+				5ED5C8CB16082D34004CFDC8 /* R2RStatusButton.m */,
+				5E6FAD97186130CA007B6D5B /* R2RSearchButton.h */,
+				5E6FAD98186130CA007B6D5B /* R2RSearchButton.m */,
+				5E16F26A163E320800740B07 /* R2RTableView.h */,
+				5E16F26B163E320900740B07 /* R2RTableView.m */,
+				5ED4B3F71602D3C200E9FE42 /* R2RTransitHopCell.h */,
+				5ED4B3F81602D3C300E9FE42 /* R2RTransitHopCell.m */,
+				5ED4B3AA1601D07000E9FE42 /* R2RTransitSegmentCell.h */,
+				5ED4B3AB1601D07000E9FE42 /* R2RTransitSegmentCell.m */,
+				5E8DB50A16198E3E00756321 /* R2RTransitSegmentHeader.h */,
+				5E8DB50B16198E3F00756321 /* R2RTransitSegmentHeader.m */,
+				5ED4B3FA1602D3D700E9FE42 /* R2RWalkDriveHopCell.h */,
+				5ED4B3FB1602D3D700E9FE42 /* R2RWalkDriveHopCell.m */,
+				5ED4B3B01601D07000E9FE42 /* R2RWalkDriveSegmentCell.h */,
+				5ED4B3B11601D07000E9FE42 /* R2RWalkDriveSegmentCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5ED4B3461601D01C00E9FE42 /* Rome2Rio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ED4B3681601D01C00E9FE42 /* Build configuration list for PBXNativeTarget "Rome2Rio" */;
+			buildPhases = (
+				5ED4B3431601D01C00E9FE42 /* Sources */,
+				5ED4B3441601D01C00E9FE42 /* Frameworks */,
+				5ED4B3451601D01C00E9FE42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rome2Rio;
+			productName = Rome2Rio;
+			productReference = 5ED4B3471601D01C00E9FE42 /* Rome2rio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5ED4B33E1601D01C00E9FE42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = R2R;
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Rome2Rio;
+				TargetAttributes = {
+					5ED4B3461601D01C00E9FE42 = {
+						DevelopmentTeam = BXN39UWQ4H;
+					};
+				};
+			};
+			buildConfigurationList = 5ED4B3411601D01C00E9FE42 /* Build configuration list for PBXProject "Rome2Rio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5ED4B33C1601D01C00E9FE42;
+			productRefGroup = 5ED4B3481601D01C00E9FE42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5ED4B3461601D01C00E9FE42 /* Rome2Rio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5ED4B3451601D01C00E9FE42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ED4B3561601D01C00E9FE42 /* InfoPlist.strings in Resources */,
+				5ED4B35F1601D01C00E9FE42 /* MainStoryboard.storyboard in Resources */,
+				5E1BE02B1623DFE8002F7CBB /* Default-568h@2x.png in Resources */,
+				5E1BE02D1623F4F1002F7CBB /* targetIcon_orange.png in Resources */,
+				5EEAB38719C7D325001A210F /* Rome2rio_Logo_white@2x.png in Resources */,
+				5ECC87AE1C03ECFD003CE940 /* Rome2Rio-API.plist in Resources */,
+				5E1BE0A316253A6A002F7CBB /* Home_Icon_White@2x.png in Resources */,
+				5E84D3A819E667DD00C45875 /* Images.xcassets in Resources */,
+				5ECC87B01C03ED8F003CE940 /* Rome2Rio-API.plist.example in Resources */,
+				5E23E66219D919E60060FAA6 /* Rome2rio_2_0_lines.png in Resources */,
+				5E2438431635123F0044C8AD /* externalLinkIconGray.png in Resources */,
+				5E42F4BA19C6D1C8007796A0 /* Rome2rio_Logo_white.png in Resources */,
+				5EB4AE26166830A0009E65BE /* GrabTransparent1.png in Resources */,
+				5EB4AE2C16685A9E009E65BE /* Home_Icon_White.png in Resources */,
+				5E88679619CAAB4F00713804 /* Rome2rio_2_0_sprites@2x.png in Resources */,
+				5EB02F77166C3BA4009C0A6C /* Localizable.strings in Resources */,
+				5EB02F7C166ECDFA009C0A6C /* ConnectionLines-v2.png in Resources */,
+				5E3A083516AFAEEC006A4934 /* bg-retina.jpg in Resources */,
+				5EB94E5A16B2120D00E8F954 /* fullscreen1.png in Resources */,
+				5EB94E5B16B2120D00E8F954 /* fullscreen2.png in Resources */,
+				5E0C56B916C1E4C80085768C /* Blue_dot-24px.png in Resources */,
+				5E10152E16C38A7E0035D60B /* LeftTriangle20px.png in Resources */,
+				5E10152F16C38A7E0035D60B /* RightTriangle20px.png in Resources */,
+				5EAB83BF1A020F1D004AE552 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5ED4B3431601D01C00E9FE42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E6FAD99186130CA007B6D5B /* R2RSearchButton.m in Sources */,
+				5ED4B3581601D01C00E9FE42 /* main.m in Sources */,
+				5ED4B35C1601D01C00E9FE42 /* R2RAppDelegate.m in Sources */,
+				5ED4B3621601D01C00E9FE42 /* R2RMasterViewController.m in Sources */,
+				5ED4B3B51601D07000E9FE42 /* R2RAirline.m in Sources */,
+				5E5B282B1A37C03400CA7A75 /* R2RCurrency.m in Sources */,
+				5ED4B3B61601D07000E9FE42 /* R2RAirport.m in Sources */,
+				5ED4B3B71601D07000E9FE42 /* R2RConnection.m in Sources */,
+				5ED4B3B91601D07000E9FE42 /* R2RFlightHop.m in Sources */,
+				5ED4B3BA1601D07000E9FE42 /* R2RFlightItinerary.m in Sources */,
+				5ED4B3BB1601D07000E9FE42 /* R2RFlightLeg.m in Sources */,
+				5ED4B3BC1601D07000E9FE42 /* R2RFlightSegment.m in Sources */,
+				5ED4B3BD1601D07000E9FE42 /* R2RFlightSegmentCell.m in Sources */,
+				5ED4B3BF1601D07000E9FE42 /* R2RFlightTicket.m in Sources */,
+				5ED4B3C01601D07000E9FE42 /* R2RFlightTicketSet.m in Sources */,
+				5ED4B3C21601D07000E9FE42 /* R2RGeocodeResponse.m in Sources */,
+				5ED4B3C41601D07000E9FE42 /* R2RNameCell.m in Sources */,
+				5ED4B3C51601D07000E9FE42 /* R2RPlace.m in Sources */,
+				5ED4B3C61601D07000E9FE42 /* R2RPosition.m in Sources */,
+				5ED4B3C71601D07000E9FE42 /* R2RPrintSearch.m in Sources */,
+				5ED4B3C81601D07000E9FE42 /* R2RResultsCell.m in Sources */,
+				5ED4B3C91601D07000E9FE42 /* R2RResultsViewController.m in Sources */,
+				5ED4B3CA1601D07000E9FE42 /* R2RRoute.m in Sources */,
+				5ED4B3CB1601D07000E9FE42 /* R2RSearch.m in Sources */,
+				5ED4B3CC1601D07000E9FE42 /* R2RSearchResponse.m in Sources */,
+				5ED4B3CE1601D07000E9FE42 /* R2RStop.m in Sources */,
+				5ED4B3CF1601D07000E9FE42 /* R2RTransitHop.m in Sources */,
+				5ED4B3D01601D07000E9FE42 /* R2RTransitItinerary.m in Sources */,
+				5ED4B3D11601D07000E9FE42 /* R2RTransitLeg.m in Sources */,
+				5ED4B3D21601D07000E9FE42 /* R2RTransitSegment.m in Sources */,
+				5ED4B3D31601D07000E9FE42 /* R2RTransitSegmentCell.m in Sources */,
+				5ED4B3D51601D07000E9FE42 /* R2RWalkDriveSegment.m in Sources */,
+				5ED4B3D61601D07000E9FE42 /* R2RWalkDriveSegmentCell.m in Sources */,
+				5ED4B3ED1602D05A00E9FE42 /* R2RFlightSegmentViewController.m in Sources */,
+				5ED4B3F61602D3AF00E9FE42 /* R2RFlightHopCell.m in Sources */,
+				5ED4B3F91602D3C300E9FE42 /* R2RTransitHopCell.m in Sources */,
+				5ED4B3FC1602D3D700E9FE42 /* R2RWalkDriveHopCell.m in Sources */,
+				5ED5C8CC16082D34004CFDC8 /* R2RStatusButton.m in Sources */,
+				5ED5C8DA160B012A004CFDC8 /* R2RStringFormatter.m in Sources */,
+				5EC399061862C9ED00F1FAE2 /* R2RKeys.m in Sources */,
+				5E8DB4E516129D7500756321 /* R2RSegmentHelper.m in Sources */,
+				5E8DB4FD1616985F00756321 /* R2RSprite.m in Sources */,
+				5E8DB50316192C6400756321 /* R2RFlightSegmentSectionHeader.m in Sources */,
+				5E8DB5061619341900756321 /* R2RResultSectionHeader.m in Sources */,
+				5E8DB50C16198E4100756321 /* R2RTransitSegmentHeader.m in Sources */,
+				5EDEDCBC161E79960005CADD /* R2RAgency.m in Sources */,
+				5EDEDCBF161E7A200005CADD /* R2RTransitLine.m in Sources */,
+				5E1BE0211623D493002F7CBB /* R2RFlightGroup.m in Sources */,
+				5EAC7141162BD43000BE8378 /* R2RImageLoader.m in Sources */,
+				5EAC7147162D0A2E00BE8378 /* R2RSpriteStore.m in Sources */,
+				5E5AA3C5162E2E8F00055720 /* R2RDuration.m in Sources */,
+				5E5AA3D6162E89D900055720 /* R2RMapHelper.m in Sources */,
+				5E5AA3DB162F854B00055720 /* R2RPath.m in Sources */,
+				5E5AA3DC162F854B00055720 /* R2RPathEncoder.m in Sources */,
+				5E16F264163E021A00740B07 /* R2RTransitSegmentViewController.m in Sources */,
+				5E16F26C163E320900740B07 /* R2RTableView.m in Sources */,
+				5E16F26F163E3A9800740B07 /* R2RConstants.m in Sources */,
+				5E16F272163F548E00740B07 /* R2RWalkDriveSegmentViewController.m in Sources */,
+				5E16F276163F623800740B07 /* R2RDetailViewController.m in Sources */,
+				5EA48D4B1640E5A2008A0ADA /* R2RAutocompleteViewController.m in Sources */,
+				5EA48D561641017F008A0ADA /* R2RAutocomplete.m in Sources */,
+				5EA48D5C164209FA008A0ADA /* R2RInfoViewController.m in Sources */,
+				5EA48D5F16422189008A0ADA /* R2RAutocompleteCell.m in Sources */,
+				5EA48D6816436321008A0ADA /* R2RMasterViewStatusButton.m in Sources */,
+				5EA48DB81643969B008A0ADA /* R2RSearchStore.m in Sources */,
+				5EA48DBB16439DB9008A0ADA /* R2RSearchManager.m in Sources */,
+				5EC20327164B3FC300B1F45A /* R2RExpandedFlightSegmentCell.m in Sources */,
+				5E639E7416507D4C00A18C20 /* R2RSpriteView.m in Sources */,
+				5E639EA616521B8600A18C20 /* R2RSpriteCache.m in Sources */,
+				5E241EA3165C680400D44710 /* R2RMapViewController.m in Sources */,
+				5EB91A13165EF4560015C0A1 /* R2RPressAnnotationView.m in Sources */,
+				5EB91A16165EFB8E0015C0A1 /* R2RAnnotation.m in Sources */,
+				5EB02F7A166C6666009C0A6C /* R2RAppRater.m in Sources */,
+				5EF40B7A16C21820008A90E4 /* R2RSerializer.m in Sources */,
+				5EDBB1DC19D26BC600AED04F /* R2RIndicativePrice.m in Sources */,
+				5E10152716C324ED0035D60B /* R2RTransitSchedulesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5EAB83BD1A020F1D004AE552 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EAB83BE1A020F1D004AE552 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		5ED4B3541601D01C00E9FE42 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5ED4B3551601D01C00E9FE42 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5ED4B35D1601D01C00E9FE42 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5ED4B35E1601D01C00E9FE42 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5ED4B3661601D01C00E9FE42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5ED4B3671601D01C00E9FE42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Rome2rio Pty Ltd";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5ED4B3691601D01C00E9FE42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = BXN39UWQ4H;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rome2Rio/Rome2Rio-Prefix.pch";
+				INFOPLIST_FILE = "Rome2Rio/Rome2Rio-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taiminh.rome2rio;
+				PRODUCT_NAME = Rome2rio;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5ED4B36A1601D01C00E9FE42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = BXN39UWQ4H;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rome2Rio/Rome2Rio-Prefix.pch";
+				INFOPLIST_FILE = "Rome2Rio/Rome2Rio-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taiminh.rome2rio;
+				PRODUCT_NAME = Rome2rio;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5ED4B3411601D01C00E9FE42 /* Build configuration list for PBXProject "Rome2Rio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ED4B3661601D01C00E9FE42 /* Debug */,
+				5ED4B3671601D01C00E9FE42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ED4B3681601D01C00E9FE42 /* Build configuration list for PBXNativeTarget "Rome2Rio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ED4B3691601D01C00E9FE42 /* Debug */,
+				5ED4B36A1601D01C00E9FE42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5ED4B33E1601D01C00E9FE42 /* Project object */;
+}
